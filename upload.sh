@@ -1,1 +1,1 @@
-conan upload --all --remote bincrafters Boost.Ptr_Container/1.64.0@bincrafters/testing
+conan upload --all --remote bincrafters Boost.Ptr_Container/1.65.1@bincrafters/testing
