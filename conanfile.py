@@ -8,20 +8,20 @@ class BoostPtr_ContainerConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["ptr_container"]
-    requires =  "Boost.Array/1.65.1@bincrafters/stable", \
-                      "Boost.Assert/1.65.1@bincrafters/stable", \
-                      "Boost.Circular_Buffer/1.65.1@bincrafters/stable", \
-                      "Boost.Config/1.65.1@bincrafters/stable", \
-                      "Boost.Core/1.65.1@bincrafters/stable", \
-                      "Boost.Iterator/1.65.1@bincrafters/stable", \
-                      "Boost.Mpl/1.65.1@bincrafters/stable", \
-                      "Boost.Range/1.65.1@bincrafters/stable", \
-                      "Boost.Serialization/1.65.1@bincrafters/stable", \
-                      "Boost.Smart_Ptr/1.65.1@bincrafters/stable", \
-                      "Boost.Static_Assert/1.65.1@bincrafters/stable", \
-                      "Boost.Type_Traits/1.65.1@bincrafters/stable", \
-                      "Boost.Unordered/1.65.1@bincrafters/stable", \
-                      "Boost.Utility/1.65.1@bincrafters/stable"
+    requires =  "Boost.Array/1.65.1@bincrafters/testing", \
+                      "Boost.Assert/1.65.1@bincrafters/testing", \
+                      "Boost.Circular_Buffer/1.65.1@bincrafters/testing", \
+                      "Boost.Config/1.65.1@bincrafters/testing", \
+                      "Boost.Core/1.65.1@bincrafters/testing", \
+                      "Boost.Iterator/1.65.1@bincrafters/testing", \
+                      "Boost.Mpl/1.65.1@bincrafters/testing", \
+                      "Boost.Range/1.65.1@bincrafters/testing", \
+                      "Boost.Serialization/1.65.1@bincrafters/testing", \
+                      "Boost.Smart_Ptr/1.65.1@bincrafters/testing", \
+                      "Boost.Static_Assert/1.65.1@bincrafters/testing", \
+                      "Boost.Type_Traits/1.65.1@bincrafters/testing", \
+                      "Boost.Unordered/1.65.1@bincrafters/testing", \
+                      "Boost.Utility/1.65.1@bincrafters/testing"
 
                       #array3 assert1 circular_buffer8 config0 core2 iterator5 mpl5 range7 serialization11 smart_ptr4 static_assert1 type_traits3 unordered8 utility5
                       
