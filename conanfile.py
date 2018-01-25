@@ -8,7 +8,8 @@ class BoostPtr_ContainerConan(ConanFile):
     name = "boost_ptr_container"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_ptr_container"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["ptr_container"]
     is_header_only = True
 
